@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fast_code_owners (0.0.3)
+    fast_code_owners_release_test (0.0.3)
       code_teams (~> 1.0)
       packs-specification
       sorbet-runtime
@@ -220,7 +220,7 @@ PLATFORMS
 
 DEPENDENCIES
   debug
-  fast_code_owners!
+  fast_code_owners_release_test!
   railties
   rake (~> 13.0)
   rake-compiler

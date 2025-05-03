@@ -3,7 +3,7 @@
 require_relative 'lib/fast_code_owners/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'fast_code_owners'
+  spec.name = 'fast_code_owners_release_test'
   spec.version = FastCodeOwners::VERSION
   spec.authors = ['Perry Hertler']
   spec.email = ['perry.hertler@gusto.com']
