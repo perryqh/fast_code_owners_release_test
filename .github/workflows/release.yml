@@ -59,7 +59,7 @@
           - name: Smoke gem install
             if: matrix.ruby-platform == 'x86_64-linux' # GitHub actions architecture
             run: |
-              gem install pkg/fast_code_owners-*.gem --verbose
+              gem install pkg/fast_code_owners_release_test-*.gem --verbose
               script="puts FastCodeOwners::VERSION"
               ruby -rfast_code_owners -e "$script" | grep 0.1.0
               echo "✅ Successfully gem installed"
